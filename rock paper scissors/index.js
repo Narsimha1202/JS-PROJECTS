@@ -5,8 +5,10 @@ const computerChoiceEl = document.querySelector(".computer-choice");
 const userPointsEl = document.querySelector(".user-points");
 const computerPointsEl = document.querySelector(".computer-points");
 
+
 let userPoints= 0;
 let computerPoints = 0;
+
 
 imgEls.forEach((img) => {
   img.addEventListener("click", () => {
